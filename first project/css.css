@@ -144,6 +144,7 @@ line-height: 22px;
 	width: 100%;
 	height: 464px;
 	background-size: cover;
+	
 }
 .main-text-banner{
 
@@ -197,9 +198,10 @@ line-height: 22px;
 	
 	color: #FFFFFF;
 }
+
 .conteiner-snowboarsd{
-	margin-left: 77px;
-	margin-top: 15px;
+	width: 1200px;
+	margin: 0 auto;
 }
 .menu-snowboarsd{
 	float: left;
@@ -425,35 +427,127 @@ color: #949494;
 .view-vector{
 	padding-left: 0px;
 }
-.main-menu{
-	margin-top:20px;
-}
 .main-menu-product{
-
-border-right: 1px solid #000000;
+margin-top: 60px;
+float: right;
+width: 900px;
 
 
 }
 .snowboard-product{
-	margin-top: 70px;
-	margin-left: -30px;
+	text-align: center;
 	float: left;
-	width: 20%;
+	width: 33%;
 }
 .snowboard-product-text{
-	font-family: 'Open Sans';
+font-family: 'Open Sans';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 19px;
-
 align-items: center;
 letter-spacing: 0.03em;
-
+font-size: 14px;
 color: #7A7A7A;
-
+padding: 20px;
+margin: 10px;
 }
 .snowboard-product-text-bold{
 	font-weight: 600;
+	color: #000000;
+}
+.sell-price{
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 19px;
+	color: #A9A9A9;
+
+}
+.sell-price-bold{
+	font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+padding-right: 10px;
+}
+.page{
+	padding-left: 430px;
+	font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+letter-spacing: 0.03em;
+margin-top: 34px;
+color: #BFBEBE;
+width: 100%;
+float:left;
+}
+.page-ramka{
+	background: #FFFFFF;
+	border: 1px solid #BFBEBE;
+	box-sizing: border-box;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #000000;
+}
+.line-down{
+margin-top: 32px;
+width: 1200px;;
+}
+
+.best{
+	width: 1200px;
+	text-align: center;
+	margin: 0 auto;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 44px;
+	color: #000000;
+}
+.best-sellers{
+	margin: 0 auto;
+}
+.best-product{
+	margin-right: 16px;
+	float: left;
+	width: 272px;
+	height: 272px;
+	background: #FFFFFF;
+border: 1px solid #BFBEBE;
+
+text-align: center;
+}
+.best-name{
+	padding-left: 20px;
+	margin-top: 15px;
+
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: left;
+	color: #000000;
+
+}
+.best-sell{
+	padding-left: 20px;
+	margin-top: 33px;
+	margin-bottom: 10px;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: left;
 	color: #000000;
 }

@@ -1,0 +1,45 @@
+table{
+	border: 2px solid;
+}
+p strong a{
+	color:aqua
+}
+p i a{
+	color:gray
+}
+div p span em {
+	color:violet
+}
+div ul li:first-child  p a{
+	color:red
+}
+div ul li span em a{
+	color:green
+}
+div ul li p  a{
+	color:blue
+}
+div ul li a{
+	color:yellow
+}
+ul strong{
+	color:chocolate
+}
+ul em a{
+	color: orange;
+}
+ul span a {
+	color:indigo
+}
+tr:first-child td:first-child  {
+	color :brown
+}
+tr:first-child td:last-child  {
+	color :cadetblue
+}
+tr:first-child td:first-child  {
+	color :brown
+}
+tr:first-child td:last-child  {
+	color :cadetblue
+}
