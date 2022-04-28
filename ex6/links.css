@@ -1,0 +1,65 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.first-line{
+	padding: 20px;
+	margin: 20px;
+}
+.first-line  > *:not(:first-child){
+	border-left: 5px solid #F6CE00;
+}
+.first-line a{
+	color: #0058B5;
+	padding: 15px;
+	
+}
+.second-line{
+	padding: 20px;
+	margin: 20px;
+}
+.second-line tr > *:not(:first-child){
+	border-left: 5px solid #F6CE00;
+	padding: 20px;
+
+}
+.second-line td a{
+	color: #0058B5;
+	padding: 15px 10px;
+}
+.third-line ul{
+	padding: 0px;
+	margin: 0px;
+}
+.third-line{
+	padding: 20px;
+	margin: 20px;
+}
+.third-line ul > *:not(:first-child){
+	border-left: 5px solid #F6CE00;
+	padding: 20px;
+	
+}
+.third-line li {
+	display: inline;
+	color: #0058B5;
+	padding: 15px 10px;
+}
+p{
+	margin: 0px;
+	padding: 0px;
+}
+.fourth-line{
+	padding: 20px;
+	margin: 20px;
+}
+.fourth-line p > *:not(:first-child){
+	border-left: 5px solid #F6CE00;
+	padding: 20px;
+
+}
+.fourth-line p a{
+	float: left;
+	color: #0058B5;
+	padding: 15px 10px;
+}
