@@ -28,22 +28,22 @@
   height: 50px;
   border: solid gray 1px;
 }
-.CHESS tr:first-of-type td{
+.CHESS tr:first-child td{
 	background-color: green;
 	width: 10px;
 	height: 10px;
 }
-.CHESS tr:last-of-type td{
+.CHESS tr:last-child td{
 	background-color: green;
 	width: 10px;
 	height: 10px;
 }
-.CHESS td:first-of-type{
+.CHESS tr td:first-of-type{
 	background-color: green;
 	width: 10px;
 	height: 10px;
 }
-.CHESS td:last-of-type{
+.CHESS tr td:last-of-type{
 	background-color: green;
 	width: 10px;
 	height: 10px;
