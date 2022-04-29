@@ -1,0 +1,19 @@
+.p{
+	color:blue;
+	font-style: italic;
+}
+a{
+	background-color: url(extref.png);
+	color:blue;
+}
+.h2{
+font-size: 30px;
+font-weight: bold;
+}
+.d{
+	color: darkolivegreen;
+}
+.y{
+	color: rgb(255, 0, 0);
+	font-weight: bold
+}

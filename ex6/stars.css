@@ -1,0 +1,10 @@
+p{
+	float: right;
+}
+
+p:hover ~ p { 
+	content: url('star1.png');
+}
+p:hover { 
+	content: url('star1.png');
+}
