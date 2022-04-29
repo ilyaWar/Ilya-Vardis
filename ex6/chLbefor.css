@@ -3,7 +3,6 @@
 	font-style: italic;
 }
 a{
-	background-color: url(extref.png);
 	color:blue;
 }
 .h2{
@@ -16,4 +15,12 @@ font-weight: bold;
 .y{
 	color: rgb(255, 0, 0);
 	font-weight: bold
+}
+.exp {
+	width: 10px;
+	height: 10px;
+	background-image: url(extref.png);
+	background-repeat: no-repeat;
+	background-position: -40px 0px;
+	background-size: cover;
 }
