@@ -1,0 +1,25 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+.name p{
+	float: left;
+	width: 200px;
+}
+.stata{
+	float: left;
+	width:100%;
+}
+.rybruka p{
+	float: left;
+	width: 200px;
+}
+.sel{
+	float: left;
+}
+.pub p{
+	float: left;
+	width: 200px;
+}
+

@@ -1,0 +1,259 @@
+*{box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;}
+.container-head {
+	height: 72px;
+	background-color: #C4C4C4;
+
+}
+.head{
+	width: 1296px;
+	margin: 0 auto;
+	padding: 0.1px;
+}
+.logo {
+	margin-top: 7px;
+	float: left;
+}
+.head-menu {
+	float: right;
+	margin-top: -33px;
+}
+.head-menu li {
+	display: inline;
+	margin-left: 30px;
+}
+.search{
+	width: 540px;
+height: 40px;
+margin-left: 308px;
+margin-top: 21px;
+
+background: #FFFFFF;
+border-radius: 31px;
+}
+.search img {
+	padding: 10px;
+	opacity: 0.5;
+	float: left;
+
+}
+.search p{
+	padding: 10px;
+	opacity: 0.5;
+	float: left;
+	margin: 0;
+}
+.container-menu {
+	width: 1296px;
+	margin: 0 auto;
+	padding: 0.1px;
+}
+.container-menu p{
+float: left;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+align-items: center;
+text-align: center;
+letter-spacing: 0.01em;
+color: #000000;
+margin-top: 30px;
+margin-left:32px;
+}
+.container-menu .button{
+width: 145px;
+height: 40px;
+color: #FFFFFF;
+background: #0772BF;
+border-radius: 4px;
+text-align: center;
+padding-top: 9px;
+margin-top: 21px;
+margin-bottom: 20px;
+}
+.container-menu .sale{
+color: #FF0C0C;
+}
+.both{
+	clear: both;
+}
+
+.main-banner{
+	background: url(images/st_banner\ 1.jpg) no-repeat;
+	width: 1428px;
+	height: 464px;
+	padding-left: 50px;
+	margin-left: 70px;
+}
+.main-banner h2{
+	padding-top: 128px;
+	padding-left: 151px;
+	color: white;
+	font-size: 32px;
+	font-weight: 700;
+	margin-bottom: 0px;
+}
+.main-banner p{
+	padding-top: 12px;
+	padding-left: 151px;
+
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	
+	letter-spacing: 0.01em;
+	
+	color: #FFFFFF;
+}
+.main-banner .button{
+	width: 144px;
+	padding: 0px;
+	padding-top: 7px;
+	height: 40px;
+	margin-top: 49px;
+	margin-left: 151px;
+	border-radius: 36px;
+	text-align: center;
+	border: white solid 1px;
+	color: #FFFFFF;
+}
+.container-main{
+	width: 1296px;
+	margin: 0 auto;
+   padding: 0.1px;
+	margin-top: 61px;
+}
+.snowboards{
+	float: left;
+	width: 256px;
+}
+
+.snowboards h2{
+	
+}
+.snowboards p{
+	margin-bottom: 6px;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+
+letter-spacing: 0.03em;
+color: #000000;
+}
+.snowboards .mauntain {
+	color: #BFBEBE;
+	margin-top: 26px;
+	margin-bottom: 74px;
+}
+.snowboards .view{
+	margin-bottom: 0px;
+}
+.snowboards .block{
+	padding-top: 15px;
+	color: #BFBEBE;
+	list-style-image:url(images/Rectangle\ 2.png);
+}
+.snowboards .block-first{
+	padding-top: 15px;
+	color: #6C6C6C;
+	list-style-image:url(images/Rectangle\ 2.png);
+}
+.snowboards .block li{
+	padding-bottom: 10px;
+
+}
+.snowboards .block ul{
+	padding-left: 25px;
+}
+.product-filtr p{
+	float: right;
+}
+.matches{
+	margin-right: 290px;
+}
+.weiv{
+	float: right;
+	border: 1px solid #C8C8C8;
+	border-radius: 4px;
+	width: 128px;
+	height: 44px;
+	margin-right: 65px;
+	text-align: center;
+}
+
+.most{
+	float: right;
+	border: 1px solid #C8C8C8;
+	border-radius: 4px;
+	width: 223px;
+	height: 44px;
+	text-align: center;
+}
+.produkt {
+	float: right;
+	width: 880px;
+	margin-top: 50px;
+}
+.one-produkt {
+	width: 33.3%;
+	text-align: center;
+	float: left;
+}
+.down-line{
+	width: 1300px;
+	margin: 0 auto;
+	padding: 0.1px;
+}
+.best h2 {
+	margin-top: 15px;
+	font-size: 32px;
+   text-align: center;
+	margin-bottom: 20px;
+}
+.best-sellers{
+	margin: 0 auto;
+}
+.best-product{
+	margin-right: 16px;
+	float: left;
+	width: 23%;
+	height: 272px;
+	background: #FFFFFF;
+border: 1px solid #BFBEBE;
+
+text-align: center;
+}
+.best-name{
+	padding-left: 20px;
+	margin-top: 15px;
+
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: left;
+	color: #000000;
+
+}
+.best-sell{
+	padding-left: 20px;
+	margin-top: 33px;
+	margin-bottom: 10px;
+	
+	
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: left;
+	color: #000000;
+}
+.zaebalo{
+	width: 1140px;
+   margin: 0 auto;
+	padding: 0.1px;
+}
