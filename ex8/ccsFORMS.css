@@ -1,25 +1,42 @@
-body{
+body,p{
 	padding: 0px;
 	margin: 0px;
 }
+p{
+	float: left;
+	width: 175px;
+}
+.main{
+	border: red double;
+	
+}
+.main .first{
+	width: 100%;
+}
+.name{
+	overflow: hidden;
+	padding: 0 10px;
+}
+.name input
+{
+	float: right;
+	width: 100%;
 
-.name p{
-	float: left;
-	width: 200px;
-}
-.stata{
-	float: left;
-	width:100%;
-}
-.rybruka p{
-	float: left;
-	width: 200px;
-}
-.sel{
-	float: left;
-}
-.pub p{
-	float: left;
-	width: 200px;
 }
 
+.pub{
+	float: left;
+	padding-right: 10px;
+	
+}
+.both{
+	clear: both;
+}
+
+.check{
+	float: left;
+}
+textarea{
+	float: left;
+	width: 100%;
+}

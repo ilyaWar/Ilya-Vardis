@@ -1,0 +1,21 @@
+@import"ccsFORMS.css";
+@media (max-width:575px)
+{
+	p{
+		float: none;
+		margin-top: 5px;
+	}
+	.rybruka select{
+		width: 100%;
+	}
+	.pub{
+		float: none;
+	}
+	.comment{
+		float: left;
+	}
+	.check{
+		width: 25px;
+		margin-top: 5px;
+	}
+}
