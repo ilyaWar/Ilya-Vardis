@@ -55,7 +55,7 @@ article img {
 #switch1:checked~#controls label:nth-child(5),
 #switch2:checked~#controls label:nth-child(1),
 #switch3:checked~#controls label:nth-child(2) {
-	background: url('/final2/images/prev.png') no-repeat;
+	background: url('images/prev.png') no-repeat;
 	/*заливка фона картинкой без повторений*/
 	float: left;
 	margin: 0 0 0 -54px;
@@ -68,7 +68,7 @@ article img {
 /*настройка переключения и положения для правой стрелки*/
 #switch1:checked~#controls label:nth-child(2),
 #switch5:checked~#controls label:nth-child(1) {
-	background: url('/final2/images/next.png') no-repeat;
+	background: url('images/next.png') no-repeat;
 	/*заливка фона картинкой без повторений*/
 	float: right;
 
@@ -255,7 +255,7 @@ select {
 	margin-left: 28px;
 	font-size: 17px;
 	line-height: 20px;
-	list-style-image: url(/final2/images/Vector.png)
+	list-style-image: url(images/Vector.png)
 }
 
 .main-text li {
