@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let name = prompt("Введите  ваше имя? ");
+      let lastname = prompt("Введите  вашу фамилию? ");
+      let middlename = prompt("Введите  ваше ОТЧЕСТВО ? ");
+      let age = prompt("Введите  ваше возраст?");
+      let day = age * 365;
+      let lastage = day / 365 + 5;
+      let gender = confirm("Вы являетсесть человеком мужского пола? ");
+      function sex() {
+        if (gender == true) {
+          six = "Мужчина";
+        } else {
+          six = "Women ";
+        }
+      }
+      function pensia() {
+        if (gender == true && age >= 63) {
+          pen = " Пенсия ";
+        }
+        if (gender == true && age <= 63) {
+          pen = "Эх опять работа ";
+        }
+        if (gender == false && age >= 60) {
+          pen = "Пенсия  ";
+        }
+        if (gender == false && age <= 60) {
+          pen = "на кухню ";
+        }
+		}
+      sex();
+      pensia();
+      alert(" Ф. И. О. : " +name +" " +lastname +" " +middlename +"\n" +"Ваш возраст : " +age +"\n" +"Ваш возраст в днях : " +day +"\n" +
+      "Ваш возраст в годах и еще 5 лет : " +lastage +"\n" +"Ваш пол : " +six +"\n" +"Вы на  пенсии : " +pen);
+    </script>
+  </body>
+</html>
