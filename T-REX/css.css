@@ -5,18 +5,8 @@
 	background-size: cover;
 	border: 2px solid #000;
 	margin: auto;
-	animation: move 1.3s infinite linear;
 }
 
-@keyframes back {
-	0% {
-		left: 880px;
-	}
-
-	100% {
-		left: -10px;
-	}
-}
 
 #person {
 	width: 330px;
@@ -35,10 +25,18 @@
 	background-size: 240px 240px;
 	position: relative;
 	top: 150px;
-	left: 1500px;
-	animation: move 0.9s infinite linear;
+	left: 1490px;
+	animation: move 1s infinite linear;
 }
+@keyframes move {
+	0% {
+		left: 1580px;
+	}
 
+	100% {
+		left: -20px;
+	}
+}
 #score {
 	font-size: 56px;
 	margin-top: 140px;
@@ -49,16 +47,6 @@ p {
 	font-size: 56px;
 	margin-top: 10px;
 	text-align: center;
-}
-
-@keyframes move {
-	0% {
-		left: 1500px;
-	}
-
-	100% {
-		left: -20px;
-	}
 }
 
 .jump {
