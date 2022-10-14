@@ -1,0 +1,152 @@
+.game {
+	width: 1600px;
+	height: 700px;
+	background-image: url(img/computer-class-in-school-university-empty-interior_107791-2266.webp);
+	background-size: cover;
+	border: 2px solid #000;
+	margin: auto;
+	animation: move 1.3s infinite linear;
+}
+
+@keyframes back {
+	0% {
+		left: 880px;
+	}
+
+	100% {
+		left: -10px;
+	}
+}
+
+#person {
+	width: 330px;
+	height: 330px;
+	background-image: url(img/pngegg\ \(4\).png);
+	background-repeat: no-repeat;
+	background-size: 330px 330px;
+	position: relative;
+	top: 360px;
+}
+
+#work {
+	width: 240px;
+	height: 240px;
+	background-image: url(img/pngegg\ \(6\).png);
+	background-size: 240px 240px;
+	position: relative;
+	top: 150px;
+	left: 1500px;
+	animation: move 0.9s infinite linear;
+}
+
+#score {
+	font-size: 56px;
+	margin-top: 140px;
+	text-align: center;
+}
+
+p {
+	font-size: 56px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+@keyframes move {
+	0% {
+		left: 1500px;
+	}
+
+	100% {
+		left: -20px;
+	}
+}
+
+.jump {
+	animation: jump 0.5s linear;
+}
+
+@keyframes jump {
+	0% {
+		top: 360px;
+	}
+
+	5% {
+		top: 330px;
+	}
+
+	10% {
+		top: 300px;
+	}
+
+	15% {
+		top: 270px;
+	}
+
+	20% {
+		top: 240px;
+	}
+
+	25% {
+		top: 210px;
+	}
+
+	30% {
+		top: 190px;
+	}
+
+	35% {
+		top: 160px;
+	}
+
+	40% {
+		top: 130px;
+	}
+
+	45% {
+		top: 100px;
+	}
+
+	50% {
+		top: 70px;
+	}
+
+	55% {
+		top: 100px;
+	}
+
+	60% {
+		top: 130px;
+	}
+
+	65% {
+		top: 160px;
+	}
+
+	70% {
+		top: 190px;
+	}
+
+	75% {
+		top: 210px;
+	}
+
+	80% {
+		top: 240px;
+	}
+
+	85% {
+		top: 270px;
+	}
+
+	90% {
+		top: 300px;
+	}
+
+	95% {
+		top: 330px;
+	}
+
+	100% {
+		top: 360px;
+	}
+}
