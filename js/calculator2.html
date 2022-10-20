@@ -13,8 +13,8 @@
 </style>
 </head>
 <body>
-	Значение x : <input id='onenumber' /></br></br>
-   Значение y : <input  id='twonumber' />
+	Значение x : <input type="number" id='onenumber' /></br></br>
+   Значение y : <input type="number" id='twonumber' />
 </br></br>
 	<input type="button" value="+" onclick="operation='+'">
    <input type="button" value="-" onclick="operation='-'" />
@@ -49,8 +49,8 @@
 		}
 		
 		const rezult=document.getElementById('ICont');
-      console.log(rez)
-       ICont.innerHTML='ваш ответ  '+ rez;
+      console.log(rez.toFixed(2))
+       ICont.innerHTML='ваш ответ  '+ rez.toFixed(2);
       }
 </script>
 </html>
