@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>cal</title>
+<style>
+	input[type="button"]{
+   height: 25px;
+   width: 50px;
+  }
+</style>
+</head>
+<body>
+	Значение x : <input id='onenumber' /></br></br>
+   Значение y : <input  id='twonumber' />
+</br></br>
+	<input type="button" value="+" onclick="operation='+'">
+   <input type="button" value="-" onclick="operation='-'" />
+   <input type="button" value="*" onclick="operation='*'" />
+   <input type="button" value="/" onclick="operation='/'" /></br></br>
+	<input type="button" value="Ответ" onclick="getResult()" />
+
+	<br />
+	<div id=ICont></div>
+	<br />
+</body>
+<script>
+
+	function getResult() {
+	const num1 = Number(document.getElementById('onenumber').value);
+	const num2 = Number(document.getElementById('twonumber').value);
+	console.log(num1)
+	console.log(num2)
+		switch(operation){
+			case '+':
+				rez = num1+num2;
+				break;
+			case '-':
+				rez = num1-num2;
+				break;
+			case '*':
+				rez = num1*num2;
+				break;
+			case '/':
+				rez = num1/num2;
+				break;
+		}
+		
+		const rezult=document.getElementById('ICont');
+      console.log(rez)
+       ICont.innerHTML='ваш ответ  '+ rez;
+      }
+</script>
+</html>
