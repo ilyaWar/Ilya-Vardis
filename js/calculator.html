@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="button" value="1" onclick="getNumber(1)" />
+    <input type="button" value="2" onclick="getNumber(2)" />
+    <input type="button" value="3" onclick="getNumber(3)" />
+    <input type="button" value="+" onclick="getOper('+')" />
+    <br />
+    <input type="button" value="4" onclick="getNumber(4)" />
+    <input type="button" value="5" onclick="getNumber(5)" />
+    <input type="button" value="6" onclick="getNumber(6)" />
+    <input type="button" value="-" onclick="getOper('-')" />
+    <br />
+    <input type="button" value="7" onclick="getNumber(7)" />
+    <input type="button" value="8" onclick="getNumber(8)" />
+    <input type="button" value="9" onclick="getNumber(9)" />
+    <input type="button" value="/" onclick="getOper('/')" />
+    <br />
+    <input type="button" value="0" onclick="getNumber(0)" />
+    <input type="button" value="=" onclick="getResult()" />
+    <input type="button" value="*" onclick="getOper('/')" />
+    <br />
+    <br />
+    <div id=ICont></div>
+    <br />
+    <br />
+    <input type="button" value="Новый подсчет" onclick="location.reload();" />
+    <script>
+      let num1 = null;
+      let num2 = null;
+      let rez=null;
+
+      function getNumber(x) {
+        if (num1 === null) {
+          num1 = x;
+        } else {
+          num2 = x;
+        } 
+      
+      }
+     
+		function getOper(operation) {
+        switch (operation) {
+          case "+":
+            rez=(num1 + num2);
+            break;
+          case "-":
+          rez=(num1 - num2);
+            break;
+          case "/":
+          rez=(num1 / num2);
+            break;
+          case "*":
+            rez=(num1 * num2);
+            break;
+        }
+      }
+      function getResult() {
+        const rezult=document.getElementById('ICont');
+        console.log(rez)
+        ICont.innerHTML='ваш ответ  '+ rez;
+      }
+
+
+    </script>
+  </body>
+</html>
