@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Generator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	<link rel="stylesheet" href="/generator/css/css.css">
+	</head>
+<body>
+	<div class="container">
+		<h1 class="text-center">Password generator</h1>
+		<div class="main">
+			
+			<form>
+
+				<div class="mb-3">
+
+				<label for="exampleInputEmail1" class="form-label"> Кол-во элементов (<span id="number">0</span>) </label>
+				<input type="range" class="form-control"id="lenth" value="0" max="50">
+				
+				</div>
+				
+				<div class="check1">
+					<input type="checkbox" class="form-check-input 1" id="exampleCheck1" checked>
+					<label class="form-chek-label" id="exampleCheck1">Числа</label>
+				 </div>
+
+				<div class="check2">
+				  <input type="checkbox" class="form-check-input 2" id="exampleCheck2" checked>
+				  <label class="form-check-label" id="exampleCheck1">Строчные буквы</label>
+				</div>
+
+				<div class="check3">
+					<input type="checkbox" class="form-check-input 3" id="exampleCheck3">
+					<label class="form-check-label" id="exampleCheck1">Прописные буквы</label>
+				 </div>
+
+				 <div class="form-check3">
+					<input type="checkbox" class="form-check-input 4" id="exampleCheck4">
+					<label class="form-check-label" id="exampleCheck1">Символы</label>
+				 </div>
+				 
+				<button type="button" class="btn btn-primary" id="generat">Generate</button>
+			 </form>	
+		</div>
+		<div id="password"></div>
+	</div>
+	<script src="/generator/js/js.js"></script>
+</body>
+</html>
