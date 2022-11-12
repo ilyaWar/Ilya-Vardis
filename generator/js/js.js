@@ -38,7 +38,7 @@ let paslenth= parseInt(document.getElementById('lenth').value)
 
 for (let i=0; i<paslenth; i++){
 
-	pas += arr0[randomIneger(0, paslenth-1)]
+	pas += arr0[randomIneger(0, arr0.length-1)]
 }
 console.log(pas);
 function randomIneger(min, max) {
