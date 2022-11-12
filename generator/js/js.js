@@ -46,3 +46,7 @@ function randomIneger(min, max) {
 }
 
 document.getElementById('password').innerHTML += '<p>' + pas+'</p>';}
+
+document.getElementById('Clear').onclick = clear; 
+function clear(){
+	document.getElementById('password').innerHTML = '';}
